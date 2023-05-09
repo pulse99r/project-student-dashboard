@@ -1,0 +1,33 @@
+.student-card{
+  align-items: center;
+  border: 2px solid black;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+  margin: 5px;
+  width: 450px;
+}
+
+.student-card img{
+  margin-right: 40px;
+  width: 120px;
+  border: 1px solid silver;
+  border-radius: 3px;
+}
+
+.student-card-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.show-more-button{
+  color: gray;
+  cursor: pointer;
+}
+.show-more-button:hover{
+color: skyblue;
+}
+.detail-group{
+  text-decoration: none;
+}

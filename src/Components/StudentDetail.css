@@ -1,0 +1,17 @@
+body{
+  font-size: 12px;
+}
+.col-hdr{
+  font-weight: bold;
+}
+.student-detail{
+  border: 2px solid gray;
+  border-radius: 3px;
+  width: 400px;
+}
+.detail-group li {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  width: 398px;
+}

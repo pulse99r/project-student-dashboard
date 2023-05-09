@@ -1,8 +1,8 @@
-import "./Header.css";
+import "../Components/Header.css";
 
 function Header() {
   return (
-    <div className="main-header d-flex text-center">
+    <div className="main-header">
       <h1>Student Dashboard</h1>
     </div>
   );
